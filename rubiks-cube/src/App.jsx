@@ -3,11 +3,18 @@ import { Canvas } from "@react-three/fiber";
 import { OrbitControls } from "@react-three/drei";
 import * as THREE from "three";
 
+const COLORS = ["white", "yellow", "blue", "green", "red", "orange"];
+
 const CubePiece = ({ position }) => {
   return (
     <mesh position={position}>
       <boxGeometry args={[1, 1, 1]} />
-      <meshStandardMaterial color="white" />
+      <meshStandardMaterial attach="material-0" color="red" />
+      <meshStandardMaterial attach="material-1" color="orange" />
+      <meshStandardMaterial attach="material-2" color="white" />
+      <meshStandardMaterial attach="material-3" color="yellow" />
+      <meshStandardMaterial attach="material-4" color="blue" />
+      <meshStandardMaterial attach="material-5" color="green" />
     </mesh>
   );
 };
@@ -20,12 +27,17 @@ const RubiksCube = () => {
   for (let x = 0; x < cubeSize; x++) {
     for (let y = 0; y < cubeSize; y++) {
       for (let z = 0; z < cubeSize; z++) {
-        pieces.push(<CubePiece key={`${x}-${y}-${z}`} position={[x - offset, y - offset, z - offset]} />);
+        pieces.push(
+          <CubePiece
+            key={`${x}-${y}-${z}`}
+            position={[x - offset, y - offset, z - offset]}
+          />
+        );
       }
     }
   }
 
-  return <>{pieces}</>;
+  return <group>{pieces}</group>;
 };
 
 const App = () => {

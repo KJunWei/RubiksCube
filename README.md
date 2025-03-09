@@ -1,6 +1,3 @@
-Here's a sample `README.md` file for your Rubik's Cube project:
-
-```markdown
 # Rubik's Cube in React
 
 This project is a 3D representation of a Rubik's Cube using React, Three.js, and React Three Fiber. You can rotate different faces of the cube using buttons to simulate moves.
@@ -21,7 +18,7 @@ Make sure you have Node.js and npm installed. You can download them from [here](
 
 1. Clone this repository:
    ```bash
-   git clone https://github.com/your-username/rubiks-cube-react.git
+   git clone https://github.com/KJunWei/RubiksCube.git
    ```
    
 2. Navigate into the project directory:
@@ -67,10 +64,3 @@ Feel free to fork the repository and create pull requests. If you find any bugs 
 ## License
 
 This project is licensed under the MIT License.
-```
-
-### Customization:
-- Replace the repository URL in the **Installation** section (`https://github.com/your-username/rubiks-cube-react.git`) with your actual repository URL.
-- You can modify the **Technologies Used** section if needed.
-
-This should cover the basic setup, usage, and a brief description of your project!

@@ -304,37 +304,37 @@ const App = () => {
 
       <button
         onClick={rotateTopFace}
-        style={{ position: "absolute", top: "20px", left: "320px", padding: "10px" }}
+        style={{ position: "absolute", top: "170px", left: "250px", padding: "10px" }}
       >
         Rotate Top Face
       </button>
       <button
         onClick={rotateBottomFace}
-        style={{ position: "absolute", top: "60px", left: "320px", padding: "10px" }}
+        style={{ position: "absolute", top: "220px", left: "250px", padding: "10px" }}
       >
         Rotate Bottom Face
       </button>
       <button
         onClick={rotateRightFace}
-        style={{ position: "absolute", top: "100px", left: "320px", padding: "10px" }}
+        style={{ position: "absolute", top: "270px", left: "250px", padding: "10px" }}
       >
         Rotate Right Face
       </button>
       <button
         onClick={rotateLeftFace}
-        style={{ position: "absolute", top: "140px", left: "320px", padding: "10px" }}
+        style={{ position: "absolute", top: "320px", left: "250px", padding: "10px" }}
       >
         Rotate Left Face
       </button>
       <button
         onClick={rotateBackFace}
-        style={{ position: "absolute", top: "180px", left: "320px", padding: "10px" }}
+        style={{ position: "absolute", top: "370px", left: "250px", padding: "10px" }}
       >
         Rotate Back Face
       </button>
       <button
         onClick={rotateFrontFace}
-        style={{ position: "absolute", top: "220px", left: "320px", padding: "10px" }}
+        style={{ position: "absolute", top: "420px", left: "250px", padding: "10px" }}
       >
         Rotate Front Face
       </button>

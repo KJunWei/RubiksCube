@@ -26,7 +26,7 @@ Make sure you have Node.js and npm installed. You can download them from [here](
    
 2. Navigate into the project directory:
    ```bash
-   cd rubiks-cube-react
+   cd rubiks-cube
    ```
 
 3. Install the dependencies:
@@ -36,7 +36,7 @@ Make sure you have Node.js and npm installed. You can download them from [here](
 
 4. Start the development server:
    ```bash
-   npm start
+   npm run dev
    ```
 
 5. Open your browser and go to [http://localhost:3000](http://localhost:3000).
